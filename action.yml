@@ -1,5 +1,5 @@
-name: "Conventional Commits"
-description: "Ensures that all commit messages are following the conventional-commits standard, allowing customization of allowed commit types"
+name: "Customizable Conventional Commits"
+description: "Enforce conventional-commits standard, allowing customization of allowed commit types"
 runs:
   using: node12
   main: dist/main/index.js
