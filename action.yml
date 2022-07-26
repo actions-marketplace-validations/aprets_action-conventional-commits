@@ -1,5 +1,5 @@
 name: "Conventional Commits"
-description: "Ensures that all commit messages are following the conventional-commits standard."
+description: "Ensures that all commit messages are following the conventional-commits standard, allowing customization of allowed commit types"
 runs:
   using: node12
   main: dist/main/index.js
@@ -9,4 +9,4 @@ inputs:
     description: Github token
   valid-commit-types: 
     required: false
-    description: List of valid commit types
+    description: JSON Array of commit types to consider valid
